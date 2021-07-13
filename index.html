@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work map Exercise</title>
+</head>
+<body>
+    <!-- gắn ảnh , đặt tên ảnh = use amp -->
+    <img src="./avenger.jpg" alt="The Avengers" usemap="#workmap" style="width:70%">
+
+    <!-- thẻ map - name sẽ chỉ định ảnh được sử dụng làm map -->
+    <map name="workmap">
+        <!-- thẻ area xác định khu vực trên img map và gắn link cho từng khu vực -->
+        <!-- shape- thuộc tính xác định hình dạng area / rect chữ nhật / circle tròn / poly đa giác  -->
+
+        <!-- coords là tọa độ các điểm xác định area , 1 tọa độ gồm 2 giá trị x,y / x ứng với khoảng cách từ điểm tới tận cùng left, y ứng với khoảng cách từ điểm tới top -->
+        <area shape="rect" coords="223,3,437,229" href="https://www.marvel.com/characters/iron-man-tony-stark/on-screen/profile" alt="IRON MAN">
+        <area shape="poly" coords="632,0,622,189,584,184,571,300,658,305,691,436,760,386,732,254,794,8" href="https://www.marvel.com/characters/thor-thor-odinson" alt="THOR">
+        <area shape="rect" coords="445,52,569,406" href="https://www.marvel.com/characters/captain-america-steve-rogers" alt="AMERICAN CAP">
+        <area shape="poly" coords="36,148,50,385,246,409,250,262" href="https://www.marvel.com/characters/black-widow-natasha-romanoff" alt="BLACK WIDOW">
+        <area shape="poly" coords="322,275,211,597,464,596,460,463,397,246" href="https://www.marvel.com/characters/captain-marvel-carol-danvers" alt="CAP MARVEL">
+        <area shape="poly" coords="572,313,561,437,502,475,475,601,665,600,712,559,660,449,643,314" href="https://www.marvel.com/characters/ant-man-scott-lang" alt="ANT MAN">
+        <area shape="poly" coords="771,285,757,413,704,469,813,472,885,473,854,433,860,279" href="https://www.marvel.com/characters/hulk-bruce-banner" alt="HULK">
+        <area shape="poly" coords="0,448,74,494,140,514,146,432,184,409,217,433,207,599,0,599" href="https://www.marvel.com/characters/war-machine-james-rhodes" alt="WAR MACHINE">
+        <area shape="" coords="" href="" alt="">
+        <area shape="" coords="" href="" alt="">
+
+    </map>
+
+</body>
+</html>
